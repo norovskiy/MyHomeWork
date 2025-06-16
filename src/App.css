@@ -1,0 +1,18 @@
+.But{
+  color: white;
+  background-image: url(/src/img/imgbg.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding: 200px;
+}
+.Wow{
+  display: flex;
+}
+.Bg{
+  background-image: url(/src/img/bghover.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding: 200px;
+}
