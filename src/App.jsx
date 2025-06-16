@@ -35,7 +35,11 @@ function App() {
       </div>
     </div>
 
-    <div className="flex justify-between flex-wrap w-[90%] m-auto">
+    <div className=" w-[90%] m-auto">
+     <center> <h1 className='text-[30px]'>Top Trending</h1>
+      <p>Our products are designed for everyone, environmentally friendly.</p></center>
+      <div className="flex justify-between flex-wrap">
+        
         <Top img="/src/img/img (4).png" name="Form Chair Brass Base" star="⭐⭐⭐⭐⭐" price="569.00$"/>
         <Top img="/src/img/img (5).png" name="Form Chair Brass Base" star="⭐⭐⭐⭐⭐" price="569.00$"/>
         <Top img="/src/img/img (6).png" name="Form Chair Brass Base" star="⭐⭐⭐⭐⭐" price="569.00$"/>
@@ -44,6 +48,7 @@ function App() {
         <Top img="/src/img/img (9).png" name="Form Chair Brass Base" star="⭐⭐⭐⭐⭐" price="569.00$"/>
         <Top img="/src/img/img (10).png" name="Form Chair Brass Base" star="⭐⭐⭐⭐⭐" price="569.00$"/>
         <Top img="/src/img/img (11).png" name="Form Chair Brass Base" star="⭐⭐⭐⭐⭐" price="569.00$"/>
+      </div>
     </div>
 
     <div className="Bg">
@@ -56,6 +61,7 @@ function App() {
     </div>
 
     <div className="w-[90%] m-auto flex justify-between items-center">
+      
       <Down img="/src/img/icon (1).svg" name="Free Shipping" desc="Get complimentary ground shipping on every order.
  Don't love it? Send it back, on us."/>
       <Down img="/src/img/icon (2).svg" name="Free Shipping" desc="Get complimentary ground shipping on every order.
@@ -71,7 +77,7 @@ function App() {
       </h1>
       <p>Inspire and let yourself be inspired, from one unique fashion to another.</p>
       </center>
-      <div className="flex justify-between my-10">
+      <div className="flex justify-between my-10 flex-wrap m-1">
       <img src="/src/img/2 (1).png" alt="" className='w-[150px]' />
       <img src="/src/img/3 (1).png" alt="" className='w-[150px]' />
       <img src="/src/img/4 (1).png" alt="" className='w-[150px]' />
@@ -140,7 +146,7 @@ function App() {
         </div>
       </div>
 
-      <div className="border-t mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 px-4 max-w-7xl mx-auto text-sm">
+      <div className="border-t mt-10 pt-4 flex flex-col md:flex-row justify-between items-center gap-2 px-2  ">
         <div className="flex items-center gap-2">
           <span>English</span>
           <span>|</span>
